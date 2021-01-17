@@ -1,0 +1,53 @@
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #df8715;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #f7a831;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+      margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 241, 212);;
+    padding: 40px 30px;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    width: 70%;
+    
+  }
+  .a{
+    display: flex;
+  }
+  .author{
+      text-align: center;
+    
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgb(255, 241, 212);;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1.2px;
+    width: 30%;
+    color: rgb(41, 38, 38);
+  }
